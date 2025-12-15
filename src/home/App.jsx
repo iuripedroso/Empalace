@@ -1,8 +1,5 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import mainVideo from '../assets/main.mp4'
+
 
 function App() {
 
@@ -17,7 +14,9 @@ function App() {
         playsInline
         >
 
-        <source src={mainVideo} type="video/mp4" />
+        <source  src={`${import.meta.env.BASE_URL}assets/main.mp4`}
+         type="video/mp4"
+        />
 
         </video>
 
