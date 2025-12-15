@@ -2,47 +2,42 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import mainVideo from '../assets/main.mp4'
 
 function App() {
 
   return (
-    <div style={{ margin: 0, padding: 0, fontFamily: 'Arial, sans-serif', overflowX: 'hidden' }}>
-      <div style={{
-        width: '100vw',
-        height: '100vh',
-        padding: '20px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: '3rem',
-        color: 'white',
-        fontWeight: 'bold',
-        backgroundColor: '#ff6b35'
-      }}>
-        <div style={{ textAlign: 'center' }}>
-          Seção Laranja
+    <div className="container">
+
+      <div className="section section-orange">
+        <video className='video-background'
+        autoPlay
+        loop
+        muted
+        playsInline
+        >
+
+        <source src={mainVideo} type="video/mp4" />
+
+        </video>
+
+
+        <header className='header'>
+        Empalace
+
+        </header>
+        
+        <div className="content">
+          {/* Seção Laranja */}
         </div>
       </div>
 
-      <div style={{
-        width: '100vw',
-        height: '100vh',
-        padding: '20px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: '3rem',
-        color: 'white',
-        fontWeight: 'bold',
-        backgroundColor: '#000000'
-      }}>
-        <div style={{ textAlign: 'center' }}>
-          Seção Preta
+      {/* <div className="section section-black">
+        <div className="content">
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
-
 
 export default App
