@@ -1,34 +1,36 @@
 import './App.css'
 
-
 function App() {
 
   return (
     <div className="container">
 
       <div className="section section-orange">
-        <video className='video-background'
-        autoPlay
-        loop
-        muted
-        playsInline
-        >
-
-        <source  src={`${import.meta.env.BASE_URL}assets/main.mp4`}
-         type="video/mp4"
-        />
-
-        </video>
-
-
-        <header className='header'>
-        Empalace
-
-        </header>
         
-        <div className="content">
-          {/* Seção Laranja */}
+        <div className="video-section">
+          <video className='video-background'
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src={`${import.meta.env.BASE_URL}assets/main.mp4`}
+              type="video/mp4"
+            />
+          </video>
+
+          <header className='header'>
+            <div className="h-logo">Empalace</div>
+          </header>
+
+        <div className="main"> <h1>THE LANGUAGE OF<br></br> CLOTHING</h1></div>
+        <div className="submain">Our 2025 collection is designed to redefine contemporary style, creating pieces that resonate with a refined, ever-changing world.</div>
         </div>
+        
+        <div className="login">
+          <div className="login-main"></div>
+        
+        </div>      
       </div>
 
       {/* <div className="section section-black">
