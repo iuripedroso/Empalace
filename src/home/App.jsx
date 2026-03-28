@@ -11,7 +11,7 @@ function App() {
       <div className="section section-orange">
 
         <div className="video-section">
-          <video className='video-background'
+          {/* <video className='video-background'
             autoPlay
             loop
             muted
@@ -20,7 +20,7 @@ function App() {
             <source src={`${import.meta.env.BASE_URL}assets/main.mp4`}
               type="video/mp4"
             />
-          </video>
+          </video> */}
 
           <header className='header'>
             <div className="h-logo">Empalace</div>

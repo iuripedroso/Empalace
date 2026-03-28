@@ -41,10 +41,16 @@ body {
 }
 
 .video-section {
+  /* video */
   position: relative;
   width: 60%;
   height: 100vh;
   overflow: hidden;
+
+  /* foto  */
+  background-image: url(../assets/main-0.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
@@ -102,7 +108,7 @@ body {
   width: 40%;
   height: 100vh;
   background-color: #ffffff;
-  background-image: url('../assets/login4.jpg');
+  background-image: url('../assets/login2.jpg');
   background-size: cover;
   padding: 40px;
   display: flex;
@@ -124,6 +130,7 @@ body {
   align-items: center;
 
   /* border: #ffffff solid 2px; */
+  
   z-index: 1000;
   position: absolute;
   top: 53.5%;
