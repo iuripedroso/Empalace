@@ -6,7 +6,7 @@ function App() {
     <div className="container">
 
       <div className="section section-orange">
-        
+
         <div className="video-section">
           <video className='video-background'
             autoPlay
@@ -23,14 +23,19 @@ function App() {
             <div className="h-logo">Empalace</div>
           </header>
 
-        <div className="main"> <h1>THE LANGUAGE OF<br></br> CLOTHING</h1></div>
-        <div className="submain">Our 2025 collection is designed to redefine contemporary style, creating pieces that resonate with a refined, ever-changing world.</div>
+
+          <div className="main-group">
+            <div className="main"><h1>THE LANGUAGE OF<br />CLOTHING</h1></div>
+            <div className="submain">Our 2025 collection is designed to redefine contemporary style, creating pieces that resonate with a refined, ever-changing world.</div>
+          </div>
         </div>
-        
+
         <div className="login">
-          <div className="login-main"></div>
-        
-        </div>      
+          <div className="login-main">
+            <h2></h2>
+          </div>
+
+        </div>
       </div>
 
       {/* <div className="section section-black">
