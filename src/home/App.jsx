@@ -1,4 +1,7 @@
 import './App.css'
+import { useEffect } from 'react'
+
+
 
 function App() {
 
@@ -32,7 +35,7 @@ function App() {
 
         <div className="login">
           <div className="login-main">
-            <h2></h2>
+            <button>LOGIN/SIGN</button>
           </div>
 
         </div>
