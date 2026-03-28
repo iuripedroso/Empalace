@@ -130,66 +130,49 @@ body {
   align-items: center;
 
   /* border: #ffffff solid 2px; */
-  
+
   z-index: 1000;
   position: absolute;
   top: 53.5%;
-  /* ✅ MUDADO: centro vertical exato */
   left: 50%;
-  /* ✅ MUDADO: centro horizontal exato */
   transform: translate(-50%, -50%);
-  /* ✅ ADICIONADO: centraliza perfeitamente */
 }
 
 .login-main button {
   font-family: "Google Sans Flex";
   transform: scale(3, 11);
-  /* mantém o efeito de escala vertical */
   background-color: transparent;
   color: #ffffff;
-  /* align-items: flex-start; */
 
-  /* padding-bottom: 50px; */
 
   font-weight: 500;
   font-size: clamp(14px, 1.2vw, 20px);
 
-  /* MUDANÇA 2: Removendo TODAS as bordas */
   border: none;
   outline: none;
   width: 100%;
   height: 10%;
   line-height: 0.25;
-  /* ✅ Compensa o scale vertical */
   display: flex;
   align-items: center;
   justify-content: center;
 
   cursor: pointer;
-  /* ✅ ADICIONADO: mostra que é clicável */
   transition: opacity 0.2s ease;
-  /* ✅ ADICIONADO: suaviza hover */
 }
 
-/* MUDANÇA 3: Remove borda azul no foco (ao clicar) */
 .login-main button:focus {
   outline: none;
-  /* ✅ ADICIONADO */
   /* border: black solid 2px; */
-
 
 }
 
-/* MUDANÇA 4: Remove borda em todos os estados */
 .login-main button:active,
 .login-main button:focus-visible {
   outline: none;
-  /* ✅ ADICIONADO */
   border: none;
-  /* ✅ ADICIONADO */
 }
 
-/* Opcional: efeito hover */
 /* .login-main button:hover {
   opacity: 0.9;
 } */
