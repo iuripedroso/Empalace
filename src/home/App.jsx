@@ -34,7 +34,7 @@ function App() {
 
         <div className="login">
           <div className="login-main">
-            <button>LOGIN/SIGN</button>
+            <button onClick={() => window.alert('funciona')}>LOGIN/SIGN</button>
             <Modal />
           </div>
 
