@@ -1,7 +1,6 @@
 import './App.css'
 import { useEffect } from 'react'
-
-
+import Modal from '../components/modal'
 
 function App() {
 
@@ -36,6 +35,7 @@ function App() {
         <div className="login">
           <div className="login-main">
             <button>LOGIN/SIGN</button>
+            <Modal />
           </div>
 
         </div>
