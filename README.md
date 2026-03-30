@@ -2,6 +2,6 @@
 
 ## EMPALACE
 
-<img src="https://github.com/iuripedroso/Empalace/blob/main/src/assets/EMPALACE.jpg?raw=true" width="600"/>
+<img src="https://github.com/iuripedroso/Empalace/blob/main/Empalace.PNG?raw=true" width="600"/>
 
 </div>
